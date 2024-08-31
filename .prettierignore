@@ -1,0 +1,14 @@
+package.json
+yarn.lock
+package-lock.json
+dist
+node_modules
+.idea
+coverage
+*.lint.ts
+.github/**
+.cache/**
+coverage/**
+**/dist/**
+dist*/**
+sandbox.md
