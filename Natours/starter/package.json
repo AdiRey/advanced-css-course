@@ -6,9 +6,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "compile:sass": "node-sass -w sass/main.scss css/style.css"
+    "compile:sass": "node-sass -w sass/main.scss css/style.css",
+    "host": "live-server"
   },
   "devDependencies": {
+    "live-server": "^1.2.2",
     "node-sass": "^9.0.0"
   }
 }
